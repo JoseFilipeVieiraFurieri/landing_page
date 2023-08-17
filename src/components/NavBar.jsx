@@ -11,9 +11,7 @@ function NavBar() {
               <img src={image} alt="bubbles Logo" className={styles.bubbles}/>
               <img src={image2} alt="shop logo" className={styles.shopLogo}/>
           </section>
-        
-
-          <div className={styles.navicon}>
+        <div className={styles.navicon}>
                <nav className={styles.nav}>
                  <ul>
                    <li>

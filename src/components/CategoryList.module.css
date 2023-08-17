@@ -35,10 +35,10 @@
     grid-row-gap: 0px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     .cardContainer {
-        grid-template-columns: repeat(4, 1fr);
-        margin-left: 70px; 
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 140px; 
     }
     .categoryCard {
         left: 0; 
