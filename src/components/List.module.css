@@ -145,19 +145,18 @@
     }
   }
 
-  
-  @media screen and (max-width: 576px) {
-     .cardContainer {
-        grid-template-columns: repeat(2 , 1fr);
-        left: 1vw;
-        right: 1vw;
+  @media screen and (max-width: 600px) {
+    .cardContainer {
+        grid-template-columns: repeat(2, 1fr);
+        left: 10px;
         top: 600px;
-        margin-top: 80vh;
     }
 
     .productCard {
-        left: 0px;
-        margin-top: 1vh;
-     }
-
+       left: 15px;
+       margin-top: 30px;
+    }
   }
+
+  
+  

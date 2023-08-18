@@ -222,3 +222,53 @@
 
 }
 
+@media screen and (max-width: 600px) {
+
+
+    .footer {
+        position:absolute;
+        z-index: 4;
+        background-color: #202332;
+        width: 100%;
+        height: 273px;
+        left: 0px;
+        margin-top: 4350px;
+        margin-left: 0px;
+    }
+
+    .logo {
+        margin-left: 40px;
+    }
+
+    .footerText {
+        margin-left: 40px;
+        font-size: 18px;
+        
+    }
+
+
+    .line {
+        margin-left: 40px;
+    }
+
+    .bubbleFooter {
+        margin-left: 800px;
+        margin-bottom: 70px;
+        height: 150px;
+    }
+
+    .bottomText {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    .developerText {
+        margin-top: 55px;
+        font-size: 20px;
+        margin-left: 24vh;
+    }
+
+}
+
+
