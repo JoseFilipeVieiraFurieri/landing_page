@@ -79,6 +79,33 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .background1 {
+    left:0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  .hightlightProducs {
+    margin-left: 200px;
+    margin-top: 300px;
+    font-size: 60px;
+    width: 80%;
+  }
+
+  .null {
+    margin-left: 200px;
+    margin-top: 0px;
+  }
+
+  .hide {
+    margin-left: 910px;
+    z-index: 2;
+    margin-top: 0px;
+  }
+}
+
 
 
 @media screen and (max-width: 576px) {

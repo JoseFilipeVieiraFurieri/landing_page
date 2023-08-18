@@ -51,10 +51,10 @@
 
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 1200px) {
     .cardContainer {
-        grid-template-columns: repeat(1, 1fr);
-        margin-left: 70px; 
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 140px; 
     }
     .categoryCard {
         left: 0; 
@@ -66,3 +66,20 @@
 
 
 }
+
+@media screen and (max-width: 768px) {
+    .cardContainer {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 100px; 
+    }
+    .categoryCard {
+        left: 0; 
+    }
+
+    .categoryName {
+        margin-left: 70px;
+    }
+
+
+}
+

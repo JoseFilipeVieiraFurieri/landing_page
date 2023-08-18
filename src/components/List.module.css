@@ -132,6 +132,19 @@
   
   }
 
+  @media screen and (max-width: 768px) {
+    .cardContainer {
+        grid-template-columns: repeat(2, 1fr);
+        left: 20px;
+        top: 600px;
+    }
+
+    .productCard {
+       left: 100px;
+       margin-top: 30px;
+    }
+  }
+
   
   @media screen and (max-width: 576px) {
      .cardContainer {
